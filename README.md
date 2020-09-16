@@ -1,7 +1,7 @@
 # AICompass
 
 ## Project
-The project aims to implement an object detection system that recognizes the landing pad for drones and indicates the direction of the landing site with respect to the centre of view. The input is an aerial image with a landing pad, and the output of the system is the direction of the landing site with respect to the centroid of the image.
+The project aims to implement an object detection system that recognizes the location of a landing pad for drones and indicates the direction of the landing site with respect to the centre of view. The input is an aerial image with a landing pad, and the output of the system is the direction of the landing site with respect to the centroid of the image. The experiment is simulated by using a camera to take photos of samples of landing pad placed on a surface.
 
 ## Description of Overall Software Structure
 The system consists of two major parts: a neural network that detects whether an image contains some portion of a landing pad, and an algorithm that takes in an aerial image and uses the output from the trained model to approximate the centroid of the landing site.
